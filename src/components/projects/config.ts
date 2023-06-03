@@ -5,8 +5,8 @@ import WeatherApp from "./../../images/weather-app.png";
 import TvShowApp from "./../../images/tv-show-app.png";
 import Coin from "./../../images/coin-flip.png";
 import YelpCamp from "./../../images/yelpcamp.png";
-import Whiteboard from "./../../images/whiteboard-app-preview.png";
 import FundMe from "./../../images/fund-me.png";
+import NFTMarketplace from "./../../images/NFTMarketplace.png";
 
 export type Project = {
   name: string,
@@ -29,7 +29,7 @@ export const projects: Project[] = [
   {
     name: "NFT Marketplace",
     description: "A marketplace for selling, buying and also minting NFTs!",
-    image: Whiteboard,
+    image: NFTMarketplace,
     url: "",
     github: "https://github.com/kaviraj-j/hardhat-nft-marketplace",
     technologies: getSkill([ "solidity", "hardhat", "nodejs", "moralis", "nextjs"])
