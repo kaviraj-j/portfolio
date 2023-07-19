@@ -3,7 +3,7 @@ import DecentralizedLottery from "./../../images/decentralized-lottery.png";
 
 import WeatherApp from "./../../images/weather-app.png";
 import TvShowApp from "./../../images/tv-show-app.png";
-import Coin from "./../../images/coin-flip.png";
+import Dappazon from "./../../images/dappazon.png";
 import YelpCamp from "./../../images/yelpcamp.png";
 import FundMe from "./../../images/fund-me.png";
 import NFTMarketplace from "./../../images/NFTMarketplace.png";
@@ -18,14 +18,15 @@ export type Project = {
 }
 
 export const projects: Project[] = [
-  // {
-  //   name: "Portfolio",
-  //   description: "Developer portfolio showing my blockchain projects, skillset and certificates.",
-  //   image: Portfolio,
-  //   url: "https://tijan.dev/",
-  //   github: "https://github.com/0xTijan/portfolio",
-  //   technologies: getSkill(["react", "typescript", "html", "css", "git", "npm"])
-  // },
+  
+  {
+    name: "Dappazon",
+    description: "Decentralized amazon Clone!",
+    image: Dappazon,
+    url: "https://dappazon.on.fleek.co/",
+    github: "https://github.com/kaviraj-j/dappazon",
+    technologies: getSkill([ "solidity", "hardhat", "nodejs", "react"])
+  },
   {
     name: "NFT Marketplace",
     description: "A marketplace for selling, buying and also minting NFTs!",
@@ -71,7 +72,7 @@ export const projects: Project[] = [
     description: "Create user accounts, add campgrounds, add comments and more!",
     image: YelpCamp,
     url: "",
-    github: "https://github.com/0xTijan/mobile-wallet",
+    github: "https://github.com/kaviraj-j/yelpcamp",
     technologies: getSkill(["javascript", "html", "css", "nodejs", "mongodb", "express"])
   },
 ]
