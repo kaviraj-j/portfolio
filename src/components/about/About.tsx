@@ -73,8 +73,20 @@ const About = () => {
           </div>
 
           <a href="mailto:kavirajmailz@gmail.com" target="_blank">
-            <Button size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid'>
+            <Button className="icon" size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid'>
               Contact Me
+            </Button>
+          </a>
+          
+          <a href="https://drive.google.com/file/d/1O1ALjCDFGrIfcDn9qexSieszy7LCFniA/view?usp=sharing" target="_blank">
+            <Button className="icon" size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid'>
+              My Resume
+            </Button>
+          </a>
+
+          <a href="https://drive.google.com/uc?id=1O1ALjCDFGrIfcDn9qexSieszy7LCFniA&export=download">
+            <Button size='lg'  colorScheme="blue" variant='solid'>
+              Download Resume
             </Button>
           </a>
         </div>
