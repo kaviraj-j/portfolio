@@ -47,7 +47,7 @@ export const projects: Project[] = [
     name: "Fund Me",
     description: "Smart Contract Funding application",
     image: FundMe,
-    url: "",
+    url: "https://kaviraj-j.github.io/client-fund-me/",
     github: "https://github.com/kaviraj-j/hardhat-fund-me",
     technologies: getSkill(["solidity", "hardhat", "javascript", "html"])
   },
