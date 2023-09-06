@@ -19,35 +19,35 @@ export type Project = {
 
 export const projects: Project[] = [
   
-  {
-    name: "Dappazon",
-    description: "Decentralized amazon Clone!",
-    image: Dappazon,
-    url: "https://dappazon.on.fleek.co/",
-    github: "https://github.com/kaviraj-j/dappazon",
-    technologies: getSkill([ "solidity", "hardhat", "nodejs", "react"])
-  },
-  {
-    name: "NFT Marketplace",
-    description: "A marketplace for selling, buying and also minting NFTs!",
-    image: NFTMarketplace,
-    url: "",
-    github: "https://github.com/kaviraj-j/hardhat-nft-marketplace",
-    technologies: getSkill([ "solidity", "hardhat", "nodejs", "moralis", "nextjs"])
-  },
+  // {
+  //   name: "Dappazon",
+  //   description: "Decentralized amazon Clone!",
+  //   image: Dappazon,
+  //   url: "https://dappazon.on.fleek.co/",
+  //   github: "https://github.com/kaviraj-j/dappazon",
+  //   technologies: getSkill([ "solidity", "hardhat", "nodejs", "react"])
+  // },
+  // {
+  //   name: "NFT Marketplace",
+  //   description: "A marketplace for selling, buying and also minting NFTs!",
+  //   image: NFTMarketplace,
+  //   url: "",
+  //   github: "https://github.com/kaviraj-j/hardhat-nft-marketplace",
+  //   technologies: getSkill([ "solidity", "hardhat", "nodejs", "moralis", "nextjs"])
+  // },
   {
     name: "Decentralized Lottery",
     description: "Decentralized lottery system which chooses the winner using the Chainlink VRF",
     image: DecentralizedLottery,
     url: "https://web3-lottery.on.fleek.co",
     github: "https://github.com/kaviraj-j/hardhat-smartcontract-lottery",
-    technologies: getSkill(["html", "css", "javascript", "chainlink", "moralis"])
+    technologies: getSkill(["html", "css", "javascript", "chainlink", "moralis", "nextjs"])
   },
   {
     name: "Fund Me",
     description: "Smart Contract Funding application",
     image: FundMe,
-    url: "https://kaviraj-j.github.io/client-fund-me/",
+    url: "https://fund-me-eth.on.fleek.co/",
     github: "https://github.com/kaviraj-j/hardhat-fund-me",
     technologies: getSkill(["solidity", "hardhat", "javascript", "html"])
   },
