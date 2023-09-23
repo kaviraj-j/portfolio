@@ -19,22 +19,22 @@ export type Project = {
 
 export const projects: Project[] = [
   
-  // {
-  //   name: "Dappazon",
-  //   description: "Decentralized amazon Clone!",
-  //   image: Dappazon,
-  //   url: "https://dappazon.on.fleek.co/",
-  //   github: "https://github.com/kaviraj-j/dappazon",
-  //   technologies: getSkill([ "solidity", "hardhat", "nodejs", "react"])
-  // },
-  // {
-  //   name: "NFT Marketplace",
-  //   description: "A marketplace for selling, buying and also minting NFTs!",
-  //   image: NFTMarketplace,
-  //   url: "",
-  //   github: "https://github.com/kaviraj-j/hardhat-nft-marketplace",
-  //   technologies: getSkill([ "solidity", "hardhat", "nodejs", "moralis", "nextjs"])
-  // },
+  {
+    name: "Dappazon",
+    description: "Decentralized amazon Clone!",
+    image: Dappazon,
+    url: "https://dappazon.on.fleek.co/",
+    github: "https://github.com/kaviraj-j/dappazon",
+    technologies: getSkill([ "solidity", "hardhat", "nodejs", "react"])
+  },
+  {
+    name: "NFT Marketplace",
+    description: "A marketplace for selling, buying and also minting NFTs!",
+    image: NFTMarketplace,
+    url: "https://nft-market.on.fleek.co/",
+    github: "https://github.com/kaviraj-j/hardhat-nft-marketplace",
+    technologies: getSkill([ "solidity", "hardhat", "nodejs", "moralis", "nextjs"])
+  },
   {
     name: "Decentralized Lottery",
     description: "Decentralized lottery system which chooses the winner using the Chainlink VRF",
