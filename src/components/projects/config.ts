@@ -25,7 +25,7 @@ export const projects: Project[] = [
     image: Dappazon,
     url: "https://dappazon.on.fleek.co/",
     github: "https://github.com/kaviraj-j/dappazon",
-    technologies: getSkill([ "solidity", "hardhat", "nodejs", "react"])
+    technologies: getSkill([ "solidity", "hardhat", "nodejs", "react", "IPFS"])
   },
   {
     name: "NFT Marketplace",
@@ -33,7 +33,7 @@ export const projects: Project[] = [
     image: NFTMarketplace,
     url: "https://nft-market.on.fleek.co/",
     github: "https://github.com/kaviraj-j/hardhat-nft-marketplace",
-    technologies: getSkill([ "solidity", "hardhat", "nodejs", "moralis", "nextjs"])
+    technologies: getSkill([ "solidity", "hardhat", "nodejs", "moralis", "nextjs", "The Graph", "IPFS"])
   },
   {
     name: "Decentralized Lottery",
