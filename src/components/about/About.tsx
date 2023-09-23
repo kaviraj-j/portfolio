@@ -54,7 +54,7 @@ const About = () => {
             </Heading>
           </div>
           <div className="about-text-desc">
-            <Text fontSize='3xl'>passionate <span className="name">BLOCKCHAIN DEVELOPER</span> from India with almost 4 months of experience in web3 development. Interested in DeFi and developing DApps</Text>
+            <Text fontSize='3xl'>passionate <span className="name">BLOCKCHAIN DEVELOPER</span> from India with who is interested in DeFi and developing DApps</Text>
           </div>
 
           <div className="icons">
@@ -78,21 +78,21 @@ const About = () => {
             </Button>
           </a>
           
-          <a href="https://drive.google.com/file/d/1O1ALjCDFGrIfcDn9qexSieszy7LCFniA/view?usp=sharing" target="_blank">
+          <a href="https://drive.google.com/file/d/1-86K6uxPJ8GEXx0wG7zye9dsKAIuVN8a/view?usp=sharing" target="_blank">
             <Button className="icon" size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid'>
               My Resume
             </Button>
           </a>
 
-          <a href="https://drive.google.com/uc?id=1O1ALjCDFGrIfcDn9qexSieszy7LCFniA&export=download">
+          <a href="https://drive.google.com/uc?id=1-86K6uxPJ8GEXx0wG7zye9dsKAIuVN8a&export=download">
             <Button size='lg'  colorScheme="blue" variant='solid'>
               Download Resume
             </Button>
           </a>
         </div>
-        <div className="about-avatar">
+        {/* <div className="about-avatar">
           <img src={avatar} className="avatar" alt="Tijan Bitmoji" />
-        </div>
+        </div> */}
       </div>
       <div className="icon-wrapper">
         <div className="bottom-icon">
