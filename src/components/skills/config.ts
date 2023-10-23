@@ -24,6 +24,7 @@ import Socket from "./../../images/socket.svg";
 import NodeJS from "./../../images/nodej-js.png";
 import ExpressJs from "./../../images/express-js.png";
 import MongoDB from "./../../images/mongo-db.png";
+import Alchemy from "./../../images/alchemy-sdk.png"
 
 export type Skill = {
   name: string;
@@ -59,6 +60,11 @@ export const skills: Skill[] = [
     url: "https://getwaffle.io/",
     img: Waffle
   },
+  {
+    name: "EthersJS",
+    url: "https://docs.ethers.io/v5/",
+    img: Ethers
+  },
   // {
   //   name: "Truffle",
   //   url: "https://trufflesuite.com/",
@@ -73,6 +79,11 @@ export const skills: Skill[] = [
     name: "Chainlink",
     url: "https://chain.link/",
     img: Chainlink
+  },
+  {
+    name: "Alchemy SDK",
+    url: "https://docs.alchemy.com/reference/alchemy-sdk-quickstart",
+    img: Alchemy
   },
   {
     name: "JavaScript",
@@ -114,11 +125,7 @@ export const skills: Skill[] = [
     url: "https://moralis.io/",
     img: Moralis
   },
-  {
-    name: "EthersJS",
-    url: "https://docs.ethers.io/v5/",
-    img: Ethers
-  },
+  
   {
     name: "The Graph",
     url: "https://thegraph.com/en/",

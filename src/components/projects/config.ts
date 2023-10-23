@@ -7,6 +7,8 @@ import Dappazon from "./../../images/dappazon.png";
 import YelpCamp from "./../../images/yelpcamp.png";
 import FundMe from "./../../images/fund-me.png";
 import NFTMarketplace from "./../../images/NFTMarketplace.png";
+import Blockexplorer from "./../../images/blockexplorer.png"
+import ECDSA from "./../../images/ecdsa.png"
 
 export type Project = {
   name: string,
@@ -44,12 +46,28 @@ export const projects: Project[] = [
     technologies: getSkill(["html", "css", "javascript", "chainlink", "moralis", "nextjs"])
   },
   {
+    name: "Blockexplorer",
+    description: "An Ethereum Block explorer",
+    image: Blockexplorer,
+    url: "https://blockexplorer-ruddy.vercel.app/",
+    github: "https://github.com/kaviraj-j/blockexplorer",
+    technologies: getSkill(["Alchemy SDK", "react", "javascript"])
+  },
+  {
     name: "Fund Me",
     description: "Smart Contract Funding application",
     image: FundMe,
     url: "https://fund-me-eth.on.fleek.co/",
     github: "https://github.com/kaviraj-j/hardhat-fund-me",
     technologies: getSkill(["solidity", "hardhat", "javascript", "html"])
+  },
+  {
+    name: "ECDSA Node App",
+    description: "A simple ECDSA implementation to send ETH",
+    image: ECDSA,
+    url: "https://ecdsa-nodejs.vercel.app/",
+    github: "https://github.com/kaviraj-j/ecdsa-nodejs",
+    technologies: getSkill(["javascript", "NodeJS", "react"])
   },
   {
     name: "Tv Show Search App",
