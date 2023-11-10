@@ -78,13 +78,13 @@ const About = () => {
             </Button>
           </a>
           
-          <a href="https://drive.google.com/file/d/1-86K6uxPJ8GEXx0wG7zye9dsKAIuVN8a/view?usp=sharing" target="_blank">
+          <a href="https://drive.google.com/file/d/1vjWKwQNUI3vIQRi7PTr6fVXCS7ULsb4A/view?usp=sharing" target="_blank">
             <Button className="icon" size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid'>
               My Resume
             </Button>
           </a>
 
-          <a href="https://drive.google.com/uc?id=1-86K6uxPJ8GEXx0wG7zye9dsKAIuVN8a&export=download">
+          <a href="https://drive.google.com/uc?id=1vjWKwQNUI3vIQRi7PTr6fVXCS7ULsb4A&export=download">
             <Button size='lg'  colorScheme="blue" variant='solid'>
               Download Resume
             </Button>
