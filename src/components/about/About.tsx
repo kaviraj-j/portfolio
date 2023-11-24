@@ -47,14 +47,14 @@ const About = () => {
         <div className="about-text">
           <div className="about-title">
             <Heading as='h1' fontSize={getFontSize()} size='3xl'>
-              Hi! 👋
+              Hi! 
             </Heading>
             <Heading as='h1' fontSize={getFontSize()} size='3xl'>
               I'm <span className="name">Kaviraj</span>
             </Heading>
           </div>
           <div className="about-text-desc">
-            <Text fontSize='3xl'>passionate <span className="name">BLOCKCHAIN DEVELOPER</span> from India with who is interested in DeFi and developing DApps</Text>
+            <Text fontSize='3xl'>passionate <span className="name">Full Stack Blockchain and Web Developer</span> from India with who is interested in DeFi and developing DApps</Text>
           </div>
 
           <div className="icons">

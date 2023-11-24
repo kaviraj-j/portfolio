@@ -25,6 +25,8 @@ import NodeJS from "./../../images/nodej-js.png";
 import ExpressJs from "./../../images/express-js.png";
 import MongoDB from "./../../images/mongo-db.png";
 import Alchemy from "./../../images/alchemy-sdk.png"
+import Auth0 from "./../../images/auth0.png"
+
 
 export type Skill = {
   name: string;
@@ -119,6 +121,11 @@ export const skills: Skill[] = [
     name: "NEXT.js",
     url: "https://nextjs.org/",
     img: Next
+  },
+  {
+    name: "Auth0",
+    url: "",
+    img: Auth0
   },
   {
     name: "Moralis",

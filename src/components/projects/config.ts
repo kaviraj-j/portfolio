@@ -9,6 +9,8 @@ import FundMe from "./../../images/fund-me.png";
 import NFTMarketplace from "./../../images/NFTMarketplace.png";
 import Blockexplorer from "./../../images/blockexplorer.png"
 import ECDSA from "./../../images/ecdsa.png"
+import RealEstateApp from "./../../images/real-estate-app.png"
+import Sociopedia from "./../../images/sociopedia.png"
 
 export type Project = {
   name: string,
@@ -70,6 +72,22 @@ export const projects: Project[] = [
     technologies: getSkill(["javascript", "NodeJS", "react"])
   },
   {
+    name: "Real Estate App",
+    description: "Real estate application to buy and sell properties",
+    image: RealEstateApp,
+    url: "https://real-estate-app-steel-six.vercel.app/",
+    github: "https://github.com/kaviraj-j/real-estate-app",
+    technologies: getSkill(["javascript", "NodeJS", "react", "mongodb", "ExpressJS", "Auth0"])
+  },
+  {
+    name: "Sociopedia",
+    description: "A social media platform",
+    image: Sociopedia,
+    url: "https://sociopedia.vercel.app/",
+    github: "https://github.com/kaviraj-j/sociopedia",
+    technologies: getSkill(["javascript", "NodeJS", "react", "mongodb", "ExpressJS", ])
+  },
+  {
     name: "Tv Show Search App",
     description: "A Tv show search app built using React.js and tvmaze api",
     image: TvShowApp,
@@ -91,6 +109,6 @@ export const projects: Project[] = [
     image: YelpCamp,
     url: "",
     github: "https://github.com/kaviraj-j/yelpcamp",
-    technologies: getSkill(["javascript", "html", "css", "nodejs", "mongodb", "express"])
+    technologies: getSkill(["javascript", "html", "css", "nodejs", "mongodb", "ExpressJS"])
   },
 ]
